@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Estratégico: OH!tica</title>
+    <meta name="description" content="Dossiê estratégico completo para dominar o varejo óptico popular em São José do Rio Preto/SP.">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="mobile-overlay" id="mobileOverlay" onclick="toggleMenu()"></div>
+    <header>
+        <div class="logo">OH!tica <span>:: Estratégia Digital</span></div>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div>
+        <nav id="mainNav">
+            <ul>
+                <li><a href="#home" class="nav-link active" onclick="showSection('home')">Home</a></li>
+                <li><a href="#mercado" class="nav-link" onclick="showSection('mercado')">Mercado</a></li>
+                <li><a href="#trafego" class="nav-link" onclick="showSection('trafego')">Tráfego</a></li>
+                <li><a href="#anuncios" class="nav-link" onclick="showSection('anuncios')">Anúncios</a></li>
+                <li><a href="#carrosseis" class="nav-link" onclick="showSection('carrosseis')">Criativos</a></li>
+                <li><a href="#persona" class="nav-link" onclick="showSection('persona')">Persona</a></li>
+                <li><a href="#transformacao" class="nav-link" onclick="showSection('transformacao')">Transformação</a></li>
+                <li><a href="#dados" class="nav-link" onclick="showSection('dados')">Dados</a></li>
+                <li><a href="#sobre" class="nav-link" onclick="showSection('sobre')">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- HOME -->
+        <section id="home" class="content-section active">
+            <div class="hero">
+                <h1>Dossiê Estratégico: OH!tica</h1>
+                <p>Pesquisa completa de mercado, estratégia de tráfego pago, roteiros de anúncios, mapeamento psicológico profundo e plano de aquisição para dominar o varejo óptico popular em São José do Rio Preto/SP.</p>
+                <div class="hero-positioning">„Óculos para quem precisa, com respeito e facilidade — mesmo sem cartão"</div>
+                <div class="btn-group">
+                    <a class="btn-primary" onclick="showSection('anuncios')">Ver Roteiros de Anúncios</a>
+                    <a class="btn-outline" onclick="showSection('dados')">Explorar Dados</a>
+                </div>
+            </div>
+            <div class="insights-grid reveal">
+                <div class="insight-card"><div class="insight-metric" data-target="71000" data-suffix="">71mil</div><div class="insight-title">PDVs no Brasil</div><div class="insight-desc">O setor óptico brasileiro conta com ~71 mil pontos de venda em todo o país.</div></div>
+                <div class="insight-card"><div class="insight-metric" data-target="44" data-suffix="%">44%</div><div class="insight-title">Ticket Médio Baixo</div><div class="insight-desc">44% das óticas operam com ticket médio entre R$501 e R$1.000.</div></div>
+                <div class="insight-card"><div class="insight-metric" data-target="15" data-prefix="R$" data-suffix="">R$3-15</div><div class="insight-title">CPL WhatsApp</div><div class="insight-desc">Custo por lead via WhatsApp varia entre R$3 e R$15.</div></div>
+                <div class="insight-card"><div class="insight-metric" data-target="70" data-suffix="%">70%</div><div class="insight-title">Comparecimento</div><div class="insight-desc">Taxa de comparecimento pode chegar a 70% dos leads gerados.</div></div>
+            </div>
+            <div class="charts-grid reveal">
+                <div class="chart-card"><h4>Crescimento de Buscas Locais (2020-2025)</h4><canvas id="homeLineChart"></canvas></div>
+                <div class="chart-card"><h4>Top Serviços Mais Procurados</h4><canvas id="homeBarChart"></canvas></div>
+            </div>
+            <h2 class="section-title reveal">Navegação Estratégica</h2>
+            <div class="section-hub reveal">
+                <a class="hub-card" onclick="showSection('mercado')"><div><span class="badge">MERCADO</span><h3>Dinâmica & Escudo</h3><p>Análise completa do varejo popular, erros fatais e oportunidades escondidas.</p></div><span class="btn-nav">Aprofundar</span></a>
+                <a class="hub-card" onclick="showSection('trafego')"><div><span class="badge">TRÁFEGO</span><h3>Google, Meta & Remarketing</h3><p>Estratégia completa de tráfego pago para aquisição local.</p></div><span class="btn-nav">Aprofundar</span></a>
+                <a class="hub-card" onclick="showSection('anuncios')"><div><span class="badge">ANÚNCIOS</span><h3>4 Roteiros Completos</h3><p>Scripts integrais de vídeo: relacionamento, transformação, interação e venda.</p></div><span class="btn-nav">Ver Roteiros</span></a>
+                <a class="hub-card" onclick="showSection('persona')"><div><span class="badge">PERSONA</span><h3>Mapa Psicológico 12D</h3><p>Raio-X completo: medos, desejos, segredos, EJACA e níveis de consciência.</p></div><span class="btn-nav">Mapear</span></a>
+                <a class="hub-card" onclick="showSection('transformacao')"><div><span class="badge">COMUNICAÇÃO</span><h3>Como Vender Certo</h3><p>Guia de comunicação que converte: o que fazer e o que evitar.</p></div><span class="btn-nav">Ver Guia</span></a>
+                <a class="hub-card" onclick="showSection('dados')"><div><span class="badge">DADOS</span><h3>Painel de Gráficos</h3><p>Visualizações completas: linha, barras, pizza, radar e gauges.</p></div><span class="btn-nav">Explorar</span></a>
+            </div>
+        </section>
+
+        <!-- MERCADO -->
+        <section id="mercado" class="content-section">
+            <h2 class="section-title">Análise de Mercado & Escudo Estratégico</h2>
+            <ul class="summary-list reveal">
+                <li>O setor óptico brasileiro é amplo e em 2024 conta com ~71 mil PDVs.</li>
+                <li>Óticas populares dependem de preço baixo e volume; 44% têm ticket médio entre R$501 e R$1.000.</li>
+                <li>A compra de óculos é urgente — quem precisa de correção visual não adia muito.</li>
+                <li>O diferencial está na promoção (promoção > marca), conveniência e rapidez.</li>
+                <li>O WhatsApp é o canal preferido de contato para a maioria das óticas populares.</li>
+            </ul>
+            <div class="market-grid reveal">
+                <div class="info-card"><h3>🏭 Dinâmica do Setor</h3><p>O setor óptico brasileiro é amplo e vem crescendo constantemente — em 2024 eram ~71 mil PDVs. As óticas populares dependem de oferta de preço baixo e volume de vendas. Cerca de 44% das óticas têm ticket médio entre R$501 e R$1.000. A compra de óculos costuma ser urgente. A concorrência é intensa, e o diferencial está na oferta de preço baixo ("promoção > marca"), na conveniência e na capacidade de atrair grande fluxo local.</p></div>
+                <div class="info-card"><h3>🧑‍🤝‍🧑 Comportamento do Consumidor</h3><p>O cliente típico pesquisa por "ótica perto de mim", "óculos baratos" ou "exame de vista grátis" — termos em crescimento. Preço e conveniência são decisivos. A influência do WhatsApp é muito forte: "se o Instagram entrega inspiração, o WhatsApp é o caminho da venda; se o Google aproxima, o bom atendimento fideliza". Manter perfil atualizado no Google e oferecer atendimento imediato por WhatsApp são essenciais.</p></div>
+            </div>
+            <h3 style="margin-bottom:1rem;color:var(--primary);" class="reveal">Funil de Conversão Local</h3>
+            <div class="funnel-container reveal">
+                <div class="funnel-step"><div class="funnel-number">1</div><div class="funnel-content"><h4>Anúncio online</h4><p>Campanha de pesquisa no Google ou social no Meta. Oferta no momento certo.</p></div></div>
+                <div class="funnel-step"><div class="funnel-number">2</div><div class="funnel-content"><h4>Contato via WhatsApp</h4><p>Cliente cai direto no WhatsApp — sem formulário. Barreira mínima.</p></div></div>
+                <div class="funnel-step"><div class="funnel-number">3</div><div class="funnel-content"><h4>Atendimento ágil</h4><p>Envio de receita, esclarecimento e agendamento em tempo real.</p></div></div>
+                <div class="funnel-step"><div class="funnel-number">4</div><div class="funnel-content"><h4>Convite para loja</h4><p>Incentivos (desconto, brinde) e atendimento humano.</p></div></div>
+                <div class="funnel-step"><div class="funnel-number">5</div><div class="funnel-content"><h4>Fechamento presencial</h4><p>Acolhimento na loja. Condições especiais: boleto, sem cartão.</p></div></div>
+            </div>
+            <div class="shield-grid reveal">
+                <div class="shield-section shield-error"><h3>⚠️ Erros que Quebram Resultado</h3>
+                    <div class="shield-item"><h4>Criativo sofisticado demais</h4><p>Público popular quer clareza, não estética elaborada. Foto simples de cliente real funciona melhor.</p></div>
+                    <div class="shield-item"><h4>Não mostrar preço/oferta</h4><p>Público responde a números. Prefira "Óculos a partir de R$99" ou "Exame grátis hoje".</p></div>
+                    <div class="shield-item"><h4>Demora no WhatsApp</h4><p>Cada minuto conta. Tenha equipe/roteiro prontos ou use respostas automáticas.</p></div>
+                    <div class="shield-item"><h4>Oferta fraca</h4><p>Sem incentivo claro (combo, brinde, desconto), o lead esfria.</p></div>
+                    <div class="shield-item"><h4>Segmentação mal calibrada</h4><p>Melhor 500 pessoas certas do que 10 mil desinteressadas.</p></div>
+                </div>
+                <div class="shield-section shield-opp"><h3>✅ Oportunidades Escondidas</h3>
+                    <div class="shield-item"><h4>Google Meu Negócio</h4><p>Tráfego orgânico gratuito. Perfis completos com fotos e avaliações alcançam primeiras posições.</p></div>
+                    <div class="shield-item"><h4>Parcerias locais</h4><p>Convênios com clínicas, escolas e academias. Eventos coletivos chamam atenção.</p></div>
+                    <div class="shield-item"><h4>Campanhas sazonais</h4><p>Dia das Mães, volta às aulas, Black Friday. Geram picos de demanda.</p></div>
+                    <div class="shield-item"><h4>Conteúdo em vídeo</h4><p>Vídeos simples trazem credibilidade. Autenticidade vale mais que produção profissional.</p></div>
+                </div>
+            </div>
+            <div class="metric-row reveal">
+                <div class="metric-box"><div class="badge">CPC</div><div class="metric-val">Baixo/Mod</div></div>
+                <div class="metric-box"><div class="badge">CPL WhatsApp</div><div class="metric-val">R$3-15</div></div>
+                <div class="metric-box"><div class="badge">Comparecimento</div><div class="metric-val">40-70%</div></div>
+                <div class="metric-box"><div class="badge">Venda Loja</div><div class="metric-val">30-60%</div></div>
+            </div>
+            <div class="opp-banner reveal"><h3>⚡ Oportunidade Gigante</h3><ul><li>Alta demanda (envelhecimento da população brasileira)</li><li>Baixa acessibilidade (poucos concorrentes atendem público negativado)</li><li>Muita dor emocional (perda de independência, dignidade comprometida)</li></ul></div>
+        </section>
+
+        <!-- TRÁFEGO PAGO -->
+        <section id="trafego" class="content-section">
+            <h2 class="section-title">Estratégia de Tráfego Pago</h2>
+            <div class="traffic-grid reveal">
+                <div class="traffic-card"><h3>🔍 Google Ads</h3><p>Campanhas de pesquisa com palavras-chave locais: "ótica + bairro", "exame de vista grátis", "óculos de grau feminino". Segmentação por raio de atuação. Google Shopping para mostrar produtos com foto e preço em datas sazonais. Sempre incluir clique-para-WhatsApp nas extensões.</p></div>
+                <div class="traffic-card"><h3>📱 Meta Ads</h3><p>Criativos diretos: "2 óculos por R$149", fotos/vídeos reais, depoimentos. Raio de 3-8 km, prova social e urgência. Públicos personalizados de quem interagiu nos últimos 30 dias. Conteúdo autêntico engaja mais que imagens genéricas.</p></div>
+                <div class="traffic-card"><h3>🎯 Remarketing</h3><p>O "ouro" do tráfego pago. Anúncios para quem já interagiu mas não comprou. Ofertas mais agressivas + escassez. Ex: viu "2 por R$149" → mostrar "R$129 apenas hoje!". Conversão muito superior à média.</p></div>
+            </div>
+        </section>
+
+        <!-- ANÚNCIOS VÍDEOS -->
+        <section id="anuncios" class="content-section">
+            <h2 class="section-title">Roteiros Completos de Anúncios</h2>
+            <div id="video-scripts-container"></div>
+        </section>
+
+        <!-- CARROSSÉIS -->
+        <section id="carrosseis" class="content-section">
+            <h2 class="section-title">Formatos Secundários — Carrosséis & Posts</h2>
+            <div id="carousels-container"></div>
+        </section>
+
+        <!-- PERSONA -->
+        <section id="persona" class="content-section">
+            <h2 class="section-title">Raio-X da Persona</h2>
+            <div class="persona-header reveal">
+                <div class="persona-identity">
+                    <div class="persona-avatar"><svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg></div>
+                    <h3>Maria Aparecida Souza</h3>
+                    <div class="persona-age">48 a 70 anos — São José do Rio Preto/SP</div>
+                    <p class="persona-desc">Ensino fundamental ou médio incompleto. Trabalhou a vida inteira como diarista, doméstica, operadora de caixa ou serviços gerais. Renda de 1 a 2 salários mínimos. Tem filhos e ajuda financeiramente a família. Sonha em ter mais conforto, ler, assistir TV e viver com dignidade.</p>
+                    <div class="problem-block"><h4>⚠️ Problema Principal</h4><p><strong>Não enxerga bem</strong> (principalmente para perto), mas não tem condições financeiras ou crédito. Impedimentos: nome negativado, medo de dívida, vergonha de procurar ajuda.</p></div>
+                </div>
+                <div class="insight-brutal">
+                    <span class="badge">INSIGHT BRUTAL</span>
+                    <blockquote>"Eu estou perdendo minha independência aos poucos."</blockquote>
+                    <p>Isso dói MUITO mais do que a visão ruim. Compram por NECESSIDADE + DIGNIDADE. O que fecha a venda: confiança, acolhimento e facilidade.</p>
+                </div>
+            </div>
+            <div class="tabs-container reveal">
+                <div class="tabs-header">
+                    <button class="tab-btn active" onclick="openTab(event,'tab-psy')">Psicologia</button>
+                    <button class="tab-btn" onclick="openTab(event,'tab-dia')">Dia-a-Dia</button>
+                    <button class="tab-btn" onclick="openTab(event,'tab-prof')">Profundidade</button>
+                    <button class="tab-btn" onclick="openTab(event,'tab-obj')">Objeções</button>
+                    <button class="tab-btn" onclick="openTab(event,'tab-ejaca')">EJACA</button>
+                    <button class="tab-btn" onclick="openTab(event,'tab-consc')">Consciência</button>
+                </div>
+                <div id="tab-psy" class="tab-pane active"><div class="psy-grid">
+                    <div class="psy-column"><h4>😰 5 Emoções</h4><ul class="psy-list"><li>Vergonha de pedir ajuda para ler algo</li><li>Tristeza por perder autonomia</li><li>Medo de estar "ficando inválida"</li><li>Frustração por não conseguir coisas simples</li><li>Sensação de abandono ou esquecimento</li></ul></div>
+                    <div class="psy-column"><h4>😨 5 Medos</h4><ul class="psy-list"><li>Ficar totalmente dependente</li><li>Piorar a visão e não poder trabalhar</li><li>Não conseguir pagar</li><li>Ser enganada ou pagar caro</li><li>Ser mal atendida ou desrespeitada</li></ul></div>
+                    <div class="psy-column"><h4>💭 5 Desejos</h4><ul class="psy-list"><li>Voltar a enxergar bem</li><li>Fazer atividades sozinha</li><li>Ter óculos bonito e confortável</li><li>Pagar sem sofrimento</li><li>Ser bem atendida e respeitada</li></ul></div>
+                </div></div>
+                <div id="tab-dia" class="tab-pane"><div class="psy-grid">
+                    <div class="psy-column"><h4>🔴 5 Dificuldades</h4><ul class="psy-list"><li>Ler celular, contas, bula de remédio</li><li>Enxergar TV ou placas na rua</li><li>Evita sair sozinha por insegurança</li><li>Depende de familiares p/ tarefas básicas</li><li>Adia ida à ótica por medo financeiro</li></ul></div>
+                    <div class="psy-column"><h4>💔 Impacto nos Relacionamentos</h4><ul class="psy-list"><li>Depende dos filhos/netos p/ tarefas simples</li><li>Se sente um peso dentro de casa</li><li>Evita sair sozinha</li><li>Fica mais irritada e sensível</li><li>Se isola socialmente</li></ul></div>
+                    <div class="psy-column"><h4>🗣️ Frases que Machucam</h4><ul class="psy-list quote-list"><li>"Mãe, a senhora não enxerga isso?"</li><li>"Deixa que eu faço, você não consegue"</li><li>"A senhora precisa de óculos urgente"</li><li>"Como deixou chegar nesse ponto?"</li><li>"É coisa simples, é só fazer um óculos"</li></ul></div>
+                </div></div>
+                <div id="tab-prof" class="tab-pane"><div class="psy-grid">
+                    <div class="psy-column"><h4>😳 5 Histórias Constrangedoras</h4><ul class="psy-list"><li>Fingiu que enxergava p/ não passar vergonha</li><li>Pediu para alguém ler e se sentiu humilhada</li><li>Errou valor por não enxergar direito</li><li>Teve que pedir ajuda em público</li><li>Evitou sair porque não enxergaria bem</li></ul></div>
+                    <div class="psy-column"><h4>🔁 Pensamentos Recorrentes</h4><ul class="psy-list quote-list"><li>"Minha visão piora cada dia mais…"</li><li>"Eu precisava resolver isso logo…"</li><li>"Mas não tenho dinheiro agora…"</li><li>"Será que tem jeito pra mim?"</li><li>"Vou deixar pra depois…"</li></ul></div>
+                    <div class="psy-column"><h4>🤫 5 Segredos</h4><ul class="psy-list"><li>Esconde o quanto a visão está ruim</li><li>Tem medo real de ficar dependente</li><li>Já deixou de fazer algo importante</li><li>Se sente um peso para a família</li><li>Vergonha da situação financeira</li></ul></div>
+                </div></div>
+                <div id="tab-obj" class="tab-pane"><div class="psy-grid">
+                    <div class="psy-column"><h4>🚧 5 Objeções</h4><ul class="psy-list quote-list"><li>"Será que vou conseguir pagar?"</li><li>"Será que aceitam negativada?"</li><li>"Será que não é golpe?"</li><li>"Será que vou ser bem tratada?"</li><li>"Será que vale a pena agora?"</li></ul></div>
+                    <div class="psy-column"><h4>🔄 O que já tentaram</h4><ul class="psy-list"><li>Óculos prontos de farmácia</li><li>Usar óculos antigo por anos</li><li>Ignorar o problema</li><li>Pedir ajuda para familiares</li><li>Deixar "pra depois" por anos</li></ul></div>
+                    <div class="psy-column"><h4>🚫 O que NÃO querem</h4><ul class="psy-list"><li>Usar cartão de crédito</li><li>Entrar em dívida complicada</li><li>Ser pressionada a comprar</li><li>Ir onde não se sente acolhida</li></ul><h4 style="margin-top:1rem;">❌ Frases</h4><ul class="psy-list quote-list"><li>"Não quero dever pra ninguém"</li><li>"Não quero passar vergonha"</li><li>"Não quero ser enganada"</li><li>"Não quero coisa complicada"</li></ul></div>
+                </div></div>
+                <div id="tab-ejaca" class="tab-pane"><div class="ejaca-grid">
+                    <div class="ejaca-card"><h4>💫 Encorajar</h4><ul><li>Mostrar pessoas da mesma idade que voltaram a enxergar</li><li>Depoimentos simples e reais</li><li>Facilidade no pagamento</li></ul></div>
+                    <div class="ejaca-card"><h4>🤝 Justificar</h4><ul><li>"Você cuidou de todos, agora é sua vez"</li><li>"Nunca é tarde pra voltar a enxergar"</li><li>"Muita gente deixou isso pra depois"</li></ul></div>
+                    <div class="ejaca-card"><h4>🛡️ Aliviar</h4><ul><li>Parcelamento no boleto, sem cartão</li><li>Explicação simples e transparente</li><li>Atendimento humano e paciente</li></ul></div>
+                    <div class="ejaca-card"><h4>✅ Confirmar</h4><ul><li>Óculos realmente está caro em muitos lugares</li><li>Nem todo mundo consegue crédito</li><li>Existem óticas que facilitam sim</li></ul></div>
+                    <div class="ejaca-card"><h4>👉 Apontar</h4><ul><li>Sistema que exclui negativados</li><li>Preços abusivos</li><li>Falta de acesso à saúde básica</li></ul></div>
+                </div></div>
+                <div id="tab-consc" class="tab-pane">
+                    <ul class="consciousness-list">
+                        <li class="consciousness-item"><div class="consciousness-header"><span>1. Inconsciente</span><span>20%</span></div><div class="consciousness-bar"><div class="consciousness-fill" data-width="20"></div></div><div class="consciousness-desc">Acha que é "idade" e não problema de visão</div></li>
+                        <li class="consciousness-item"><div class="consciousness-header"><span>2. Consciente do problema</span><span>40%</span></div><div class="consciousness-bar"><div class="consciousness-fill" data-width="40"></div></div><div class="consciousness-desc">Sabe que não enxerga bem</div></li>
+                        <li class="consciousness-item"><div class="consciousness-header"><span>3. Consciente da solução</span><span>60%</span></div><div class="consciousness-bar"><div class="consciousness-fill" data-width="60"></div></div><div class="consciousness-desc">Sabe que precisa de óculos</div></li>
+                        <li class="consciousness-item"><div class="consciousness-header"><span>4. Consciente do produto</span><span>80%</span></div><div class="consciousness-bar"><div class="consciousness-fill" data-width="80"></div></div><div class="consciousness-desc">Busca ótica acessível</div></li>
+                        <li class="consciousness-item"><div class="consciousness-header"><span>5. Totalmente consciente</span><span>100%</span></div><div class="consciousness-bar"><div class="consciousness-fill" data-width="100"></div></div><div class="consciousness-desc">Quer ótica que aceite boleto e não negue crédito</div></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- TRANSFORMAÇÃO -->
+        <section id="transformacao" class="content-section">
+            <h2 class="section-title">Transformação & Comunicação</h2>
+            <div class="transform-grid reveal">
+                <div class="transform-card"><h3>🎯 Transformação Desejada</h3><ul class="check-list"><li>Voltar a enxergar bem (principalmente leitura)</li><li>Conseguir fazer atividades sozinha</li><li>Ter um óculos bonito e confortável</li><li>Conseguir pagar sem sofrimento</li><li>Ser bem atendida e respeitada</li></ul></div>
+                <div class="transform-card"><h3>❤️ Impacto Positivo</h3><ul class="check-list"><li>Mais independência no dia a dia</li><li>Menos dependência dos filhos</li><li>Mais autoestima</li><li>Mais participação em atividades sociais</li><li>Sensação de dignidade recuperada</li></ul></div>
+            </div>
+            <h3 style="margin-bottom:1rem;color:var(--primary);" class="reveal">Guia de Vendas</h3>
+            <div class="sell-grid reveal">
+                <div class="sell-col sell-dont"><h3>❌ Como NÃO vender</h3><ul><li>"Óculos barato"</li><li>"Parcelamento facilitado"</li></ul></div>
+                <div class="sell-col sell-do"><h3>✅ Como VENDER</h3><ul><li>"Volte a enxergar e ter sua independência"</li><li>"Faça seu óculos com dignidade e sem complicação"</li><li>"Aqui você é respeitado, independente da sua situação"</li></ul></div>
+            </div>
+            <h3 style="margin-bottom:1rem;color:var(--primary);" class="reveal">Frases que Convertem</h3>
+            <div class="comm-grid reveal">
+                <div class="comm-card">"Tá difícil enxergar até as coisas simples?"</div>
+                <div class="comm-card">"Você não precisa mais depender dos outros pra tudo"</div>
+                <div class="comm-card">"Mesmo sem cartão, você pode fazer seu óculos"</div>
+                <div class="comm-card">"Atendimento com paciência e respeito — do jeito que você merece"</div>
+            </div>
+            <h3 style="margin-bottom:1rem;color:var(--primary);" class="reveal">Crenças sobre o Passado</h3>
+            <div class="comm-grid reveal">
+                <div class="comm-card">"Sempre dei prioridade pros outros, nunca pra mim"</div>
+                <div class="comm-card">"Já gastei dinheiro com coisa que não resolveu"</div>
+                <div class="comm-card">"Nunca tive condição de cuidar da visão"</div>
+                <div class="comm-card">"Na minha época isso era luxo"</div>
+                <div class="comm-card">"Agora já é tarde pra resolver"</div>
+            </div>
+            <div class="opp-banner reveal" style="margin-top:1rem;"><h3>🔥 O Maior Diferencial</h3><p style="font-size:1.1rem;opacity:0.95;">NÃO é o boleto. É o fato de que <strong>a pessoa não vai ser rejeitada.</strong></p></div>
+        </section>
+
+        <!-- DADOS -->
+        <section id="dados" class="content-section">
+            <h2 class="section-title">Painel Completo de Dados</h2>
+            <div class="charts-dashboard reveal">
+                <div class="chart-card"><h4>Crescimento de Buscas Ópticas (SP Interior)</h4><canvas id="mainLineChart"></canvas></div>
+                <div class="chart-card"><h4>Divisão de Lead Mix</h4><canvas id="mainPieChart"></canvas></div>
+                <div class="chart-card"><h4>Frequência de Demanda por Produto</h4><canvas id="mainBarChart"></canvas></div>
+                <div class="chart-card"><h4>Mapa de Forças da Persona</h4><canvas id="mainRadarChart"></canvas></div>
+                <div class="chart-card"><h4>Comparecimento à Loja</h4><canvas id="gaugeChart1"></canvas></div>
+                <div class="chart-card"><h4>Conversão em Venda</h4><canvas id="gaugeChart2"></canvas></div>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="content-section">
+            <div class="conclude-banner reveal">
+                <h2>O Plano de Domínio — Rio Preto</h2>
+                <p>Este portal tangibiliza a jornada da OH!tica para dominar o nicho popular de óticas em São José do Rio Preto. O maior diferencial NÃO é o boleto — é o fato de que a pessoa não vai ser rejeitada. Em um mercado com alta demanda, baixa acessibilidade e muita dor emocional, a OH!tica se posiciona como a ótica que oferece dignidade, respeito e facilidade para quem mais precisa.</p>
+            </div>
+        </section>
+    </main>
+    <footer><p>&copy; 2026 Portal Estratégico OH!tica :: Dossiê V5 Full-Extraction</p></footer>
+    <script src="script.js"></script>
+</body>
+</html>

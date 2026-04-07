@@ -1,0 +1,453 @@
+{
+  "empresa": "OH!tica",
+  "localizacao": "São José do Rio Preto/SP",
+
+  "home": {
+    "h1": "Dossiê Estratégico: OH!tica",
+    "subtitulo": "Pesquisa completa de mercado, estratégia de tráfego pago, roteiros de anúncios, mapeamento psicológico profundo e plano de aquisição para dominar o varejo óptico popular em São José do Rio Preto/SP.",
+    "insights": [
+      {
+        "metrica": "71mil",
+        "titulo": "PDVs no Brasil",
+        "descricao": "O setor óptico brasileiro conta com aproximadamente 71 mil pontos de venda em todo o país, evidenciando um mercado massivo e competitivo."
+      },
+      {
+        "metrica": "44%",
+        "titulo": "Ticket Médio Baixo",
+        "descricao": "Cerca de 44% das óticas brasileiras operam com ticket médio entre R$501 e R$1.000, exigindo alto volume de vendas para manter lucratividade."
+      },
+      {
+        "metrica": "R$3-15",
+        "titulo": "CPL WhatsApp",
+        "descricao": "O custo por lead via WhatsApp no nicho de óticas populares varia entre R$3 e R$15, tornando o tráfego pago extremamente acessível para lojas locais."
+      },
+      {
+        "metrica": "70%",
+        "titulo": "Taxa de Comparecimento",
+        "descricao": "Com um funil afiado e resposta rápida no WhatsApp, a taxa de comparecimento à loja pode chegar a 70% dos leads gerados."
+      }
+    ],
+    "posicionamento_ideal": "Óculos para quem precisa, com respeito e facilidade — mesmo sem cartão"
+  },
+
+  "mercado": {
+    "sumario": [
+      "O setor óptico brasileiro é amplo e em 2024 conta com ~71 mil pontos de venda (PDVs).",
+      "Óticas populares dependem de preço baixo e volume; 44% têm ticket médio entre R$501 e R$1.000.",
+      "A compra de óculos é urgente — quem precisa de correção visual não adia muito a solução.",
+      "O diferencial competitivo está na promoção (promoção > marca), conveniência e rapidez do atendimento.",
+      "O WhatsApp é o canal preferido de contato para a maioria das óticas populares."
+    ],
+    "dinamica": "O setor óptico brasileiro é amplo e vem crescendo constantemente — em 2024 eram ~71 mil pontos de venda (PDVs) em todo o país. Nesse cenário competitivo, as óticas populares dependem de oferta de preço baixo e volume de vendas. Pesquisa do setor revela que cerca de 44% das óticas têm ticket médio entre R$501 e R$1.000 por cliente, o que exige altas quantidades de vendas para manter lucro. Além disso, a compra de óculos costuma ser urgente: quem precisa de correção visual normalmente não adia muito a solução. Assim, esses lojistas se apoiam em promoções claras e necessidades imediatas, em vez de construir marca de forma tradicional. Em resumo: a concorrência é intensa, e o diferencial está na oferta de preço baixo ('promoção > marca'), na conveniência e rapidez do atendimento e na capacidade de atrair grande fluxo de clientes localmente.",
+    "consumidor": "O cliente típico de ótica popular pesquisa ativamente por opções próximas e baratas. Cada vez mais os consumidores realizam buscas no Google por expressões como 'ótica perto de mim', 'óculos baratos' ou 'exame de vista grátis' — termos que têm crescido ano a ano. Nessas pesquisas locais, preço e conveniência são decisivos: promoções do tipo 'óculos a partir de R$99' ou 'exame grátis' aparecem com destaque nas decisões. A influência do WhatsApp é muito forte: muitos clientes preferem tirar dúvidas, enviar receita médica ou agendar atendimento diretamente pelo app. Como resume o CRM Ótica, 'se o Instagram entrega inspiração, o WhatsApp é o caminho da venda; se o Google aproxima, o bom atendimento fideliza'. Em prática, isso significa manter um perfil atualizado no Google (muito importante para aparecer nas buscas locais) e oferecer atendimento imediato por WhatsApp — esse é o canal preferido de contato da maioria das óticas.",
+    "funil": [
+      { "etapa": 1, "titulo": "Anúncio online", "descricao": "Campanha de pesquisa no Google ou social no Meta. O usuário vê a oferta no momento certo, com termos de alta intenção ou criativos de demanda." },
+      { "etapa": 2, "titulo": "Contato via WhatsApp", "descricao": "Ao clicar no anúncio, o cliente cai direto no WhatsApp da loja — sem precisar preencher formulário. A barreira de entrada é mínima." },
+      { "etapa": 3, "titulo": "Atendimento ágil pelo chat", "descricao": "O cliente pode enviar a receita, esclarecer dúvidas e marcar exame — tudo em tempo real, sem burocracia. Resposta imediata é crucial." },
+      { "etapa": 4, "titulo": "Convite para a visita à loja", "descricao": "Com diálogo claro, incentivos (desconto, brinde, agendamento rápido) e atendimento humano, o cliente é convidado a ir presencialmente." },
+      { "etapa": 5, "titulo": "Fechamento presencial", "descricao": "Na loja, o atendimento continua com acolhimento e respeito. O fechamento é facilitado por condições especiais (boleto, sem cartão)." }
+    ],
+    "metricas": {
+      "CPC": "Baixo a moderado (depende da concorrência local)",
+      "CPL": "R$ 3 a R$ 15 por contato no WhatsApp",
+      "comparecimento": "40% a 70% das pessoas que se propuseram a ir à loja",
+      "conversao_loja": "30% a 60% dos visitantes acabam comprando"
+    },
+    "escudo": {
+      "erros": [
+        {
+          "titulo": "Criativo sofisticado demais",
+          "descricao": "Ótica popular quer clareza, não estética elaborada. Um anúncio 'bonito' demais pode confundir; muitas vezes uma foto simples de cliente real ou do próprio dono falando direto funciona melhor. O público C/D responde a autenticidade, não a produção profissional."
+        },
+        {
+          "titulo": "Não mostrar preço ou oferta",
+          "descricao": "O público popular responde a números e promoções. Esconder preço ou usar linguagem vaga dificulta a atração. Prefira títulos diretos como 'Óculos a partir de R$99' ou 'Exame grátis hoje' para despertar interesse imediato."
+        },
+        {
+          "titulo": "Demora no WhatsApp",
+          "descricao": "Postergar respostas é fatal. 'Responda rápido — a demora pode fazer o cliente desistir.' Cada minuto conta: tenha equipe/roteiro prontos para atender em poucos minutos ou use respostas automáticas personalizadas."
+        },
+        {
+          "titulo": "Oferta fraca",
+          "descricao": "Não aposte em 'apenas visitar a loja'. Dê motivos fortes (descontos extras, combos, brindes) para a pessoa ir presencialmente. Sem incentivo claro, o lead esfria."
+        },
+        {
+          "titulo": "Segmentação mal calibrada",
+          "descricao": "Públicos amplos mas relevantes costumam render mais do que nichos ultrarrestritos. 'Para óticas, vale mais atingir 500 pessoas certas do que 10 mil desinteressadas.' Aplique filtros básicos (localização, idade, interesses gerais), mas não limite demais a audiência."
+        }
+      ],
+      "oportunidades": [
+        {
+          "titulo": "Google Meu Negócio otimizado",
+          "descricao": "Essa ferramenta gratuita gera tráfego orgânico absurdo. Complete seu perfil (horário, fotos, contato). Quando alguém buscar óticas próximas, o Google exibe primeiro os perfis mais completos. Perfis com fotos atrativas, boas avaliações e posts frequentes alcançam as primeiras posições — é 'tráfego grátis' de pessoas já querendo óculos."
+        },
+        {
+          "titulo": "Parcerias locais",
+          "descricao": "Faça convênios com clínicas oftalmológicas, escolas, academias, empresas ou salões de beleza. Ofereça descontos a funcionários/convidados em troca de divulgação. Eventos coletivos (p.ex. dias de prova de armações em escola ou sorteios em academias) são eficazes para chamar atenção."
+        },
+        {
+          "titulo": "Campanhas sazonais",
+          "descricao": "Aproveite datas comerciais — Dia das Mães, Dia dos Pais, Dia das Crianças, volta às aulas, Black Friday — com promoções temáticas. Uma ótica pode fazer mês do exame grátis, combos especiais ou concursos. Essas campanhas geram picos de demanda e aceleram vendas."
+        },
+        {
+          "titulo": "Conteúdo em vídeo",
+          "descricao": "Vídeos simples trazem credibilidade. Grave pequenos vídeos do dono ou equipe falando da promoção atual, experimento de armações ou depoimentos. Instagram Reels e TikTok têm grande alcance local. Conteúdos que mostram produtos reais e pessoas reais funcionam muito bem. A autenticidade vale mais que produção profissional."
+        }
+      ]
+    },
+    "oportunidade_gigante": [
+      "Alta demanda (envelhecimento da população brasileira)",
+      "Baixa acessibilidade (poucos concorrentes atendem público negativado)",
+      "Muita dor emocional (perda de independência, dignidade comprometida)"
+    ]
+  },
+
+  "trafego_pago": {
+    "google_ads": "Campanhas de pesquisa são essenciais para capturar clientes prontos para comprar. Use palavras-chave locais e de intenção direta: 'ótica + nome do bairro', 'exame de vista grátis', 'óculos de grau feminino'. Segmente por termos de alta intenção ('ótica perto de mim', 'exame de vista grátis') e limite pelo raio de atuação (extensões de local) para que só usuários próximos vejam o anúncio. Use também o Google Shopping para mostrar produtos com foto e preço diretamente na busca — especialmente em datas sazonais (Dia das Mães, Dia dos Pais, volta às aulas), isso costuma aumentar muito o fluxo de leads. Sempre inclua chamadas claras (ex.: 'Exame grátis hoje mesmo') e clique-para-WhatsApp nas extensões, para converter a pesquisa em contato imediato com a loja.",
+    "meta_ads": "No Facebook/Instagram, a estratégia é apresentar a oferta e despertar interesse em quem talvez ainda não conhece a ótica. Use criativos diretos e claros: anúncios com oferta concreta ('2 óculos por R$149', 'armações + lentes por X'), fotos/vídeos reais de clientes antes/depois, depoimentos ou demos de produtos. Os usuários brasileiros respondem bem a prova social (comentários, avaliações) e urgência ('só esta semana', 'estoque limitado'). Na segmentação, defina raio local de 3-8 km da loja e interesses amplos (saúde visual, família, trabalho de escritório). Use públicos personalizados/semelhantes: público de quem interagiu com a página nos últimos 30 dias ou visitou o site. Esses públicos engajados costumam converter bem. Conteúdo autêntico — como vídeo de cliente experimentando óculos ou fotos antes e depois — engaja mais do que imagens genéricas.",
+    "remarketing": "Esse é o 'ouro' do tráfego pago. Mostre anúncios especiais para quem já interagiu: usuários que clicaram no anúncio e caíram no WhatsApp mas não compraram, ou que visitaram sua página/loja online. 'Às vezes, tudo que o cliente precisa é de um lembrete ou de uma segunda oferta' — e a taxa de conversão nesse público costuma ser muito maior que na média. Em remarketing, use ofertas ainda mais agressivas (descontos extras, bônus) e crie sensação de escassez. Por exemplo: se alguém viu '2 por R$149' e não comprou, mostre um anúncio dizendo 'R$129 apenas hoje!' para reativar o interesse."
+  },
+
+  "anuncios": {
+    "videos": [
+      {
+        "titulo": "Você cuidou de todo mundo… mas esqueceu de você?",
+        "tipo": "relacionamento",
+        "formato": "Reels (até 3 minutos)",
+        "duracao": "3:00 min",
+        "descricao_post": "Você cuidou de todo mundo. Agora é sua vez ❤️",
+        "dores_trabalhadas": "Culpa, abandono próprio, dignidade, identificação profunda",
+        "roteiro": [
+          { "cena": 1, "tempo": "00:01 – 00:05", "tipo": "GANCHO", "descricao": "\"Deixa eu te fazer uma pergunta… você também foi aquela pessoa que sempre cuidou de todo mundo… mas nunca cuidou de si?\"" },
+          { "cena": 2, "tempo": "00:05 – 00:20", "tipo": "CONTEXTO", "descricao": "\"Trabalhou a vida inteira… ajudou os filhos… segurou as contas da casa… abriu mão de muita coisa… até da sua própria saúde…\"" },
+          { "cena": 3, "tempo": "00:20 – 00:40", "tipo": "DOR", "descricao": "\"E hoje… quando você precisa ler uma mensagem no celular… ou ver a receita na cozinha… ou até assistir TV… você percebe que sua visão não tá mais a mesma…\"" },
+          { "cena": 4, "tempo": "00:40 – 01:10", "tipo": "DOR", "descricao": "\"E aí vem aquela sensação… de ter que pedir ajuda… de depender dos outros… de ouvir 'mãe, a senhora não tá enxergando isso?'…\"" },
+          { "cena": 5, "tempo": "01:10 – 01:40", "tipo": "TRANSICAO", "descricao": "\"Mas deixa eu te falar uma coisa que talvez ninguém nunca te falou…\"" },
+          { "cena": 6, "tempo": "01:40 – 02:10", "tipo": "VIRADA", "descricao": "\"Você não errou em cuidar dos outros. Mas agora… chegou a sua vez.\"" },
+          { "cena": 7, "tempo": "02:10 – 02:40", "tipo": "SOLUCAO", "descricao": "\"Aqui na Ótica Oh!tica, a gente entende sua história. E por isso a gente criou uma forma simples de você voltar a enxergar bem… sem cartão… sem complicação… e com respeito.\"" },
+          { "cena": 8, "tempo": "02:40 – 03:00", "tipo": "CTA", "descricao": "\"Se você sente que já passou da hora de cuidar de você… manda uma mensagem pra gente. Você merece isso.\"" }
+        ]
+      },
+      {
+        "titulo": "Por que seu óculos da farmácia não resolve (e pode piorar)",
+        "tipo": "transformacao",
+        "formato": "Reels",
+        "duracao": "2:40 min",
+        "descricao_post": "O barato pode sair caro — principalmente com sua visão.",
+        "dores_trabalhadas": "Desinformação, visão piorando, solução errada, dor de cabeça",
+        "roteiro": [
+          { "cena": 1, "tempo": "00:01 – 00:05", "tipo": "GANCHO", "descricao": "\"Se você comprou óculos na farmácia e mesmo assim não enxerga direito… isso aqui pode estar piorando sua visão.\"" },
+          { "cena": 2, "tempo": "00:05 – 00:25", "tipo": "CONTEXTO", "descricao": "\"Esses óculos são feitos pra todo mundo… mas cada olho é diferente.\"" },
+          { "cena": 3, "tempo": "00:25 – 00:50", "tipo": "DOR", "descricao": "\"Pode até ajudar por um tempo… mas depois começa dor de cabeça, cansaço e visão ainda pior.\"" },
+          { "cena": 4, "tempo": "00:50 – 01:20", "tipo": "SOLUCAO", "descricao": "\"O certo é um óculos feito pra você. Com o grau certo. Do jeito que seu olho precisa.\"" },
+          { "cena": 5, "tempo": "01:20 – 01:50", "tipo": "QUEBRA", "descricao": "\"E não… isso não precisa ser caro ou complicado.\"" },
+          { "cena": 6, "tempo": "01:50 – 02:20", "tipo": "SOLUCAO", "descricao": "\"Aqui na Ótica Oh!tica você consegue fazer seu óculos mesmo sem cartão.\"" },
+          { "cena": 7, "tempo": "02:20 – 02:40", "tipo": "CTA", "descricao": "\"Se você já tentou de tudo e nada resolveu… fala com a gente.\"" }
+        ]
+      },
+      {
+        "titulo": "Me conta uma coisa (eu vou te responder)",
+        "tipo": "interacao",
+        "formato": "Reels",
+        "duracao": "2:00 min",
+        "descricao_post": "Eu vou te responder de verdade. Pode confiar ❤️",
+        "dores_trabalhadas": "Isolamento, vergonha, solidão, necessidade de acolhimento",
+        "roteiro": [
+          { "cena": 1, "tempo": "00:01 – 00:05", "tipo": "GANCHO", "descricao": "\"Posso te fazer uma pergunta sincera?\"" },
+          { "cena": 2, "tempo": "00:05 – 00:15", "tipo": "CONTEXTO", "descricao": "\"Qual é a maior dificuldade que você tem hoje por não enxergar bem?\"" },
+          { "cena": 3, "tempo": "00:15 – 00:40", "tipo": "DOR", "descricao": "\"É ler? É cozinhar? É mexer no celular? É depender dos outros?\"" },
+          { "cena": 4, "tempo": "00:40 – 01:10", "tipo": "CTA", "descricao": "\"Me conta aqui nos comentários ou manda mensagem pra gente…\"" },
+          { "cena": 5, "tempo": "01:10 – 01:40", "tipo": "VIRADA", "descricao": "\"Eu vou ler um por um… e te responder com carinho, sem julgamento.\"" },
+          { "cena": 6, "tempo": "01:40 – 02:00", "tipo": "CTA", "descricao": "\"Porque ninguém merece passar por isso sozinho.\"" }
+        ]
+      },
+      {
+        "titulo": "Mesmo com nome negativado, você pode fazer seu óculos",
+        "tipo": "venda",
+        "formato": "Reels",
+        "duracao": "2:40 min",
+        "descricao_post": "Aqui ninguém te julga. Aqui a gente resolve.",
+        "dores_trabalhadas": "Exclusão financeira, nome negativado, vergonha, necessidade urgente",
+        "roteiro": [
+          { "cena": 1, "tempo": "00:01 – 00:05", "tipo": "GANCHO", "descricao": "\"Seu nome tá negativado e você acha que não consegue fazer óculos?\"" },
+          { "cena": 2, "tempo": "00:05 – 00:25", "tipo": "CONTEXTO", "descricao": "\"É exatamente por isso que muita gente continua sem enxergar…\"" },
+          { "cena": 3, "tempo": "00:25 – 00:50", "tipo": "VIRADA", "descricao": "\"Mas aqui na Ótica Oh!tica é diferente.\"" },
+          { "cena": 4, "tempo": "00:50 – 01:20", "tipo": "SOLUCAO", "descricao": "\"A gente acredita que enxergar bem não é luxo… é necessidade.\"" },
+          { "cena": 5, "tempo": "01:20 – 01:50", "tipo": "SOLUCAO", "descricao": "\"Por isso você pode parcelar no boleto. Sem cartão. Sem complicação.\"" },
+          { "cena": 6, "tempo": "01:50 – 02:20", "tipo": "VIRADA", "descricao": "\"E com atendimento de verdade… com respeito… do jeito que você merece.\"" },
+          { "cena": 7, "tempo": "02:20 – 02:40", "tipo": "CTA", "descricao": "\"Se você achava que não tinha solução… agora tem.\"" }
+        ]
+      }
+    ],
+    "carrosseis": [
+      {
+        "titulo": "Você também faz isso pra conseguir enxergar melhor?",
+        "tipo": "engajamento",
+        "formato": "Carrossel Instagram (8 Cards)",
+        "descricao_post": "Comenta aqui qual desses você faz 👇",
+        "cards": [
+          { "numero": 1, "tipo": "GANCHO", "texto": "Você também faz isso pra conseguir enxergar melhor?" },
+          { "numero": 2, "tipo": "CONTEUDO", "texto": "Afasta o celular do rosto até o braço não aguentar mais" },
+          { "numero": 3, "tipo": "CONTEUDO", "texto": "Pede pro filho/neto ler mensagem" },
+          { "numero": 4, "tipo": "CONTEUDO", "texto": "Aumenta o volume da TV achando que é problema de audição" },
+          { "numero": 5, "tipo": "CONTEUDO", "texto": "Finge que entendeu o que leu" },
+          { "numero": 6, "tipo": "CONTEUDO", "texto": "Usa óculos velho que já não ajuda mais" },
+          { "numero": 7, "tipo": "QUEBRA", "texto": "Se você faz pelo menos 2 desses… não é normal da idade." },
+          { "numero": 8, "tipo": "CTA", "texto": "É falta de óculos certo. E tem solução — mesmo sem cartão." }
+        ]
+      },
+      {
+        "titulo": "A verdade que ninguém te conta sobre o preço dos óculos",
+        "tipo": "autoridade",
+        "formato": "Carrossel Instagram (9 Cards)",
+        "descricao_post": "Nem todo lugar é igual. E você merece saber disso.",
+        "cards": [
+          { "numero": 1, "tipo": "GANCHO", "texto": "A verdade que ninguém te conta sobre o preço dos óculos" },
+          { "numero": 2, "tipo": "CONTEUDO", "texto": "Óculos não é caro… o problema é como te vendem" },
+          { "numero": 3, "tipo": "CONTEUDO", "texto": "Muitos lugares aumentam preço por causa de cartão e parcelamento" },
+          { "numero": 4, "tipo": "CONTEUDO", "texto": "Outros empurram o que você não precisa" },
+          { "numero": 5, "tipo": "CONTEUDO", "texto": "E quem mais sofre com isso? Quem mais precisa" },
+          { "numero": 6, "tipo": "CONTEUDO", "texto": "Mas existe outra forma" },
+          { "numero": 7, "tipo": "CONTEUDO", "texto": "Aqui você paga de forma simples, sem cartão" },
+          { "numero": 8, "tipo": "CONTEUDO", "texto": "E só pelo que realmente precisa" },
+          { "numero": 9, "tipo": "CTA", "texto": "Óculos com respeito e preço justo existem. E estão mais perto do que você imagina." }
+        ]
+      }
+    ]
+  },
+
+  "audiencia": {
+    "perfil": {
+      "nome": "Maria Aparecida Souza",
+      "idade": "48 a 70 anos",
+      "localizacao": "São José do Rio Preto/SP e região",
+      "descricao": "Ensino fundamental ou médio incompleto. Trabalhou a vida inteira como diarista, doméstica, operadora de caixa ou serviços gerais. Atualmente ainda trabalha ou é aposentada com renda baixa (1 a 2 salários mínimos). Mora em São José do Rio Preto ou região. Tem filhos e, em muitos casos, ajuda financeiramente a família. Sonha em ter mais conforto no dia a dia, conseguir ler, assistir TV e viver com mais dignidade sem depender dos outros."
+    },
+    "problema_principal": {
+      "problema": "Não consegue enxergar bem (principalmente para perto), mas não tem condições financeiras ou crédito para fazer óculos.",
+      "impedimento": "Nome negativado, medo de dívida, falta de acesso fácil e vergonha de procurar ajuda."
+    },
+    "ja_tentaram": [
+      "Comprar óculos prontos de farmácia",
+      "Usar óculos antigo por anos",
+      "Ignorar o problema",
+      "Pedir ajuda para familiares",
+      "Deixar 'pra depois' por anos"
+    ],
+    "nao_querem": {
+      "acoes": [
+        "Usar cartão de crédito",
+        "Entrar em dívida complicada",
+        "Ser pressionada a comprar",
+        "Ir em lugar onde não se sente acolhida"
+      ],
+      "frases": [
+        "\"Não quero dever pra ninguém\"",
+        "\"Não quero passar vergonha\"",
+        "\"Não quero ser enganada\"",
+        "\"Não quero coisa complicada\"",
+        "\"Não quero lugar que me trate mal\""
+      ]
+    },
+    "psicologia": {
+      "emocoes": [
+        "Vergonha de pedir ajuda para ler algo",
+        "Tristeza por perder autonomia",
+        "Medo de estar 'ficando inválida'",
+        "Frustração por não conseguir fazer coisas simples",
+        "Sensação de abandono ou esquecimento"
+      ],
+      "medos": [
+        "Ficar totalmente dependente de outras pessoas",
+        "Piorar a visão e não conseguir trabalhar mais",
+        "Não conseguir pagar pelo óculos",
+        "Ser enganada ou pagar caro",
+        "Ser mal atendida ou desrespeitada"
+      ],
+      "desejos": [
+        "Voltar a enxergar bem (principalmente leitura)",
+        "Conseguir fazer atividades sozinha",
+        "Ter um óculos bonito e confortável",
+        "Conseguir pagar sem sofrimento",
+        "Ser bem atendida e respeitada"
+      ],
+      "dificuldades": [
+        "Dificuldade para ler coisas simples (celular, contas, bula de remédio)",
+        "Dificuldade para enxergar TV ou placas na rua",
+        "Evita sair sozinho(a) por insegurança",
+        "Depende de familiares para tarefas básicas",
+        "Adia constantemente a ida à ótica por medo financeiro"
+      ],
+      "impacto_relacionamentos": [
+        "Depende dos filhos/netos para tarefas simples",
+        "Se sente um peso dentro de casa",
+        "Evita sair sozinha",
+        "Fica mais irritada e sensível",
+        "Se isola socialmente"
+      ],
+      "frases_que_machucam": [
+        "\"Mãe, a senhora não enxerga isso?\"",
+        "\"Deixa que eu faço, você não consegue\"",
+        "\"A senhora precisa de óculos urgente\"",
+        "\"Como a senhora deixou chegar nesse ponto?\"",
+        "\"Isso é coisa simples, é só fazer um óculos\""
+      ],
+      "crencas_passado": [
+        "\"Sempre dei prioridade pros outros, nunca pra mim\"",
+        "\"Já gastei dinheiro com coisa que não resolveu\"",
+        "\"Nunca tive condição de cuidar da visão\"",
+        "\"Na minha época isso era luxo\"",
+        "\"Agora já é tarde pra resolver\""
+      ],
+      "historias_constrangedoras": [
+        "Fingiu que estava enxergando para não passar vergonha",
+        "Pediu para alguém ler algo e se sentiu humilhado(a)",
+        "Errou um valor ou informação por não enxergar direito",
+        "Teve que pedir ajuda em público",
+        "Evitou sair porque sabia que não enxergaria bem"
+      ],
+      "pensamentos_recorrentes": [
+        "\"Minha visão está piorando cada dia mais…\"",
+        "\"Eu precisava resolver isso logo…\"",
+        "\"Mas não tenho dinheiro pra isso agora…\"",
+        "\"Será que tem jeito pra mim?\"",
+        "\"Vou deixar pra depois…\""
+      ],
+      "pensamentos_maldosos": [
+        "\"Ninguém entende o que eu passo\"",
+        "\"Se fosse outra pessoa, já tinham ajudado\"",
+        "\"As coisas são mais difíceis pra mim\"",
+        "\"Esses lugares só pensam em dinheiro\"",
+        "\"Quem tem dinheiro resolve tudo fácil…\""
+      ],
+      "segredos": [
+        "Esconde o quanto a visão está ruim de verdade",
+        "Tem medo real de ficar dependente",
+        "Já deixou de fazer algo importante por não enxergar",
+        "Se sente um peso para a família",
+        "Tem vergonha da própria situação financeira"
+      ],
+      "objecoes": [
+        "\"Será que eu vou conseguir pagar isso?\"",
+        "\"Será que vão me aceitar mesmo negativada?\"",
+        "\"Será que não é golpe?\"",
+        "\"Será que vou ser bem tratada?\"",
+        "\"Será que vale a pena agora?\""
+      ]
+    },
+    "gatilhos": {
+      "ejaca": {
+        "encorajar": [
+          "Mostrar pessoas da mesma idade que voltaram a enxergar",
+          "Mostrar depoimentos simples e reais",
+          "Mostrar facilidade no pagamento"
+        ],
+        "justificar": [
+          "\"Você cuidou de todo mundo, agora é sua vez\"",
+          "\"Nunca é tarde pra voltar a enxergar bem\"",
+          "\"Muita gente deixou isso pra depois também\""
+        ],
+        "aliviar": [
+          "Parcelamento no boleto, sem cartão",
+          "Explicação simples e transparente",
+          "Atendimento humano e paciente"
+        ],
+        "confirmar": [
+          "Óculos realmente está caro em muitos lugares",
+          "Nem todo mundo consegue crédito",
+          "Existem óticas que facilitam sim"
+        ],
+        "apontar": [
+          "Sistema que exclui quem tem nome negativado",
+          "Preços abusivos",
+          "Falta de acesso à saúde básica"
+        ]
+      },
+      "niveis_consciencia": [
+        { "nivel": 1, "nome": "Inconsciente", "descricao": "Acha que é 'idade' e não problema de visão" },
+        { "nivel": 2, "nome": "Consciente do problema", "descricao": "Sabe que não enxerga bem" },
+        { "nivel": 3, "nome": "Consciente da solução", "descricao": "Sabe que precisa de óculos" },
+        { "nivel": 4, "nome": "Consciente do produto", "descricao": "Busca ótica acessível" },
+        { "nivel": 5, "nome": "Totalmente consciente", "descricao": "Quer uma ótica que aceite boleto e não negue crédito" }
+      ],
+      "insight_brutal": "\"Eu estou perdendo minha independência aos poucos.\" — Isso dói MUITO mais do que o problema da visão em si. Esse público NÃO compra por estética primeiro. Eles compram por NECESSIDADE + DIGNIDADE. O que faz fechar a venda é: confiança, acolhimento e facilidade.",
+      "frase_forte": "\"Aqui você faz seu óculos mesmo sem cartão e sem complicação.\"",
+      "quem_culpam": [
+        "A vida difícil",
+        "Falta de dinheiro ao longo dos anos",
+        "Sistema de saúde",
+        "Preço das coisas",
+        "A própria falta de prioridade com a saúde"
+      ]
+    },
+    "transformacao": {
+      "desejada": [
+        "Voltar a enxergar bem (principalmente leitura)",
+        "Conseguir fazer atividades sozinha",
+        "Ter um óculos bonito e confortável",
+        "Conseguir pagar sem sofrimento",
+        "Ser bem atendida e respeitada"
+      ],
+      "impacto_positivo": [
+        "Mais independência no dia a dia",
+        "Menos dependência dos filhos",
+        "Mais autoestima",
+        "Mais participação em atividades sociais",
+        "Sensação de dignidade recuperada"
+      ],
+      "comunicacao_que_converte": [
+        "\"Tá difícil enxergar até as coisas simples?\"",
+        "\"Você não precisa mais depender dos outros pra tudo\"",
+        "\"Mesmo sem cartão, você pode fazer seu óculos\"",
+        "\"Atendimento com paciência e respeito — do jeito que você merece\""
+      ],
+      "como_nao_vender": [
+        "\"Óculos barato\"",
+        "\"Parcelamento facilitado\""
+      ],
+      "como_vender": [
+        "\"Volte a enxergar e ter sua independência\"",
+        "\"Faça seu óculos com dignidade e sem complicação\"",
+        "\"Aqui você é respeitado, independente da sua situação\""
+      ]
+    }
+  },
+
+  "graficos": {
+    "linha": [
+      { "label": "2020", "valor": 120 },
+      { "label": "2021", "valor": 150 },
+      { "label": "2022", "valor": 210 },
+      { "label": "2023", "valor": 350 },
+      { "label": "2024", "valor": 480 },
+      { "label": "2025", "valor": 650 }
+    ],
+    "barras": [
+      { "label": "Armações", "valor": 85 },
+      { "label": "Lentes", "valor": 95 },
+      { "label": "Exames", "valor": 70 },
+      { "label": "Limpeza", "valor": 30 },
+      { "label": "Acessórios", "valor": 25 }
+    ],
+    "pizza": [
+      { "label": "Google Ads", "valor": 45 },
+      { "label": "Meta Ads", "valor": 35 },
+      { "label": "WhatsApp Orgânico", "valor": 12 },
+      { "label": "Indicação", "valor": 8 }
+    ],
+    "radar": [
+      { "label": "Dor Emocional", "valor": 95 },
+      { "label": "Urgência", "valor": 80 },
+      { "label": "Sensibilidade a Preço", "valor": 90 },
+      { "label": "Confiança Necessária", "valor": 85 },
+      { "label": "Resistência Digital", "valor": 60 },
+      { "label": "Influência Social", "valor": 70 }
+    ],
+    "gauge": [
+      { "label": "Comparecimento", "valor": 65, "max": 100 },
+      { "label": "Conversão Loja", "valor": 45, "max": 100 }
+    ]
+  },
+
+  "sobre": "Este portal tangibiliza a jornada da OH!tica para dominar o nicho popular de óticas em São José do Rio Preto. O maior diferencial NÃO é o boleto — é o fato de que a pessoa não vai ser rejeitada. Em um mercado com alta demanda (envelhecimento da população), baixa acessibilidade e muita dor emocional, a OH!tica se posiciona como a ótica que oferece dignidade, respeito e facilidade para quem mais precisa."
+}
